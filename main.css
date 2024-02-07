@@ -1,0 +1,28 @@
+.product{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:  20px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    width: calc((100% - 40px)/3);
+    padding: 10px 0;
+    background-color: #eee;
+}
+img{
+    width: 100%;
+    aspect-ratio: 358/247;
+    display: flex;
+    flex-wrap: wrap;
+    filter: brightness(80%);
+    border-radius: 8px;
+}
+a{
+    text-decoration: none;
+    color: #1a9ddf;
+    font-size: large;
+    font-weight: bold;
+}
